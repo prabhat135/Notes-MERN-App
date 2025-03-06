@@ -34,7 +34,7 @@ const Notes = () => {
     return (
         <React.Fragment>
             <Form />
-
+            <h2>Notes</h2>
             {
                 notes.length === 0 ? (
                     <Box sx={{

@@ -9,7 +9,7 @@ import {
     ListItemText,
 } from '@mui/material';
 
-import { LightbulbOutlined, ArchiveOutlined, DeleteOutlineOutlined } from '@mui/icons-material';
+import { LightbulbOutlined, RememberMeOutlined, ArchiveOutlined, DeleteOutlineOutlined } from '@mui/icons-material';
 
 import { makeStyles } from '@mui/styles';
 
@@ -44,12 +44,18 @@ const NavList = ({ open, setOpen }) => {
         },
         {
             id: 2,
+            label: 'Reminder',
+            icon: <RememberMeOutlined />,
+            link: '/reminder'
+        },
+        {
+            id: 3,
             label: 'Archive',
             icon: <ArchiveOutlined />,
             link: '/archive'
         },
         {
-            id: 3,
+            id: 4,
             label: 'Trash',
             icon: <DeleteOutlineOutlined />,
             link: '/trash'
