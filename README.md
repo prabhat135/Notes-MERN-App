@@ -1,6 +1,6 @@
-# Google Keep Clone
+# Notes MERN App
 
-This is a clone of Google Keep created using **React** and **Material UI**. It allows users to add, archive, and delete notes, with notes being stored in local storage. The app also features drag and drop functionality for notes and automatically deletes deleted notes after 7 days.
+This is a Notes app similar to Google Keep created using **React** and **Material UI**. It allows users to add, archive, and delete notes, with notes being stored in local storage. The app also features drag and drop functionality for notes and automatically deletes deleted notes after 7 days.
 
 ## Table of Contents
 
@@ -8,11 +8,7 @@ This is a clone of Google Keep created using **React** and **Material UI**. It a
 - [Usage](#usage)
 - [Features](#features)
 - [Dependencies](#dependencies)
-- [Preview](#preview)
-- [PWA](#pwa)
-- [Contributing](#contributing)
 - [Demo](#demo)
-- [Author](#author)
 
 ## Installation
 To run the project locally, follow these steps:
@@ -43,29 +39,8 @@ npm i uuid
 npm i @hello-pangea/dnd
 ```
 
-## Preview
-<p>
-  <img src="https://github.com/TheNewC0der-24/Google-Keep-Clone/blob/master/Preview/Preview-1.png" width="400">
-  <img src="https://github.com/TheNewC0der-24/Google-Keep-Clone/blob/master/Preview/Preview-2.png" width="400">
-  <img src="https://github.com/TheNewC0der-24/Google-Keep-Clone/blob/master/Preview/Preview-3.png" width="400">
-  <img src="https://github.com/TheNewC0der-24/Google-Keep-Clone/blob/master/Preview/Preview-4.png" width="400">
-</p>
-
-## PWA
-![image](https://github.com/TheNewC0der-24/Google-Keep-Clone/blob/master/PWA.png)
-
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
-
 ## Demo
 You can see a live demo of the project
 ```
-https://keepitnotes.vercel.app/
+https://notesprabhat.netlify.app/
 ```
-
-## Author
-- LinkedIn - [Bhavya Khurana](https://www.linkedin.com/in/bhavyakhurana24/)
-- Frontend Mentor - [@TheNewC0der-24](https://www.frontendmentor.io/profile/TheNewC0der-24)
-- Twitter - [@Bhavya06001699](https://twitter.com/Bhavya06001699)
-
